@@ -1,0 +1,112 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#site_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#site_wrapper #navbar {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 200px;
+          flex: 0 0 200px;
+  height: 100%;
+}
+
+#site_wrapper #navbar nav {
+  height: 100vh;
+  background-color: red;
+  position: fixed;
+  width: 200px;
+}
+
+#site_wrapper #navbar nav #logo_container {
+  display: block;
+  height: 150px;
+  background-color: yellow;
+}
+
+#site_wrapper main {
+  width: 100%;
+}
+
+#site_wrapper main #banner {
+  height: 100vh;
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+#site_wrapper main #banner #banner_text {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+#site_wrapper main #banner #scroll_down {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+}
+
+#site_wrapper main #banner #scroll_down i {
+  color: white;
+}
+
+#site_wrapper main #banner #scroll_down a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#site_wrapper main #content .row {
+  margin-top: 50px;
+}
+
+#site_wrapper main #content .section a {
+  display: block;
+  border: 1px solid red;
+  margin-bottom: 25px;
+}
+
+#site_wrapper main #contact {
+  margin-bottom: 50px;
+}
+
+#site_wrapper main #contact .row {
+  margin-top: 50px;
+}
+
+#site_wrapper main #contact #contact_form {
+  border: 1px solid red;
+}
+
+#site_wrapper main #contact #contact_form table,
+#site_wrapper main #contact #contact_form input,
+#site_wrapper main #contact #contact_form textarea {
+  width: 100%;
+}
+
+#site_wrapper main #contact #contact_form table {
+  border-collapse: unset;
+}
+
+#site_wrapper main #contact #contact_form input {
+  height: 2em;
+}
+
+#site_wrapper main #contact #contact_form textarea {
+  resize: none;
+  height: 10em;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+#site_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+
+    #navbar {
+        // display: none;
+        flex: 0 0 200px;
+        height: 100%;
+
+        nav {
+            height: 100vh;
+            background-color: red;
+            position: fixed;
+            width: 200px;
+
+            #logo_container {
+                display: block;
+                height: 150px;
+                background-color: yellow;
+            }
+        }
+    }
+
+    main {
+        // order:0;
+        width: 100%;
+
+        #banner {
+            // width: 100%;
+            height: 100vh;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            position: relative;
+
+            #banner_text {
+                color: white;
+                text-align: center;
+                margin: auto;
+            }
+
+            #scroll_down {
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+
+                i {
+                    color: white;
+                }
+                margin: auto;
+
+                a {
+                    display: inline-block;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        #content {
+
+            .row {
+                margin-top: 50px;
+            }
+
+            .section {
+                
+                a {
+                    display: block;
+                    border: 1px solid red;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+
+        #contact {
+            margin-bottom: 50px;
+
+            .row {
+                margin-top: 50px;
+            }
+
+            #contact_form {
+                border: 1px solid red;
+
+                table, 
+                input,
+                textarea {
+                    width: 100%;
+                }
+
+                table {
+                    border-collapse: unset;
+                }
+
+                input {
+                    height: 2em;
+                }
+
+                textarea {
+                    resize: none;
+                    height: 10em;
+                }
+
+                
+
+                }
+        }
+    }
+}
