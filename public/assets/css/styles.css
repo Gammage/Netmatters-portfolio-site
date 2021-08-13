@@ -1,6 +1,7 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #5a3c2a;
 }
 
 #site_wrapper {
@@ -11,6 +12,11 @@
       flex-wrap: nowrap;
 }
 
+#site_wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
 #site_wrapper #navbar {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 200px;
@@ -19,20 +25,133 @@
 }
 
 #site_wrapper #navbar nav {
+  background-color: #c8a088;
+  border-right: 2px solid #5a3c2a;
   height: 100vh;
-  background-color: red;
   position: fixed;
   width: 200px;
 }
 
 #site_wrapper #navbar nav #logo_container {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 150px;
-  background-color: yellow;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav #logo_container span {
+  color: #e8d8ce;
+}
+
+#site_wrapper #navbar nav #logo_container span h1 {
+  position: relative;
+  color: #D8BCAB;
+  font-size: 2em;
+  border: 1px solid #D8BCAB;
+  padding: 0.1em;
+  z-index: 0;
+}
+
+#site_wrapper #navbar nav #logo_container span h1:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  top: -7px;
+  left: -7px;
+  right: -7px;
+  bottom: -7px;
+  border: 3px solid #D8BCAB;
+}
+
+#site_wrapper #navbar nav ul {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#site_wrapper #navbar nav ul li {
+  height: 100%;
+  margin-top: 1.5em;
+}
+
+#site_wrapper #navbar nav ul li a {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+#site_wrapper #navbar nav .nav_btn {
+  font-size: 1.25em;
+  color: #5a3c2a;
+  text-align: center;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact {
+  font-size: 1.25em;
+  color: #5a3c2a;
+  text-align: center;
+  border-top: 1px solid #5a3c2a;
+  border-bottom: 1px solid #5a3c2a;
+  position: relative;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 3px;
+  top: -6px;
+  width: 100%;
+  left: 0px;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  bottom: -6px;
+  left: 0px;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .li_contact {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+
+#site_wrapper #navbar nav .social_icons_ctn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#site_wrapper #navbar nav .social_icons_ctn .social_icons_ctn_inner {
+  text-align: center;
+}
+
+#site_wrapper #navbar nav .social_icons_ctn .social_icons_ctn_inner .nav_social {
+  font-size: 2em;
+  color: #5a3c2a;
+  text-align: center;
 }
 
 #site_wrapper main {
   width: 100%;
+  background-color: #D8BCAB;
 }
 
 #site_wrapper main #banner {

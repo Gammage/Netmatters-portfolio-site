@@ -1,0 +1,9 @@
+// COLOUR PALLETTE
+
+$primarybackground-colour: #D8BCAB !default;
+$accent-colour: darken($primarybackground-colour, 50%)  !default;
+$default-button: darken($primarybackground-colour, 10%) !default;
+$active-button-color: lighten($primarybackground-colour, 10%) !default;
+
+
+
