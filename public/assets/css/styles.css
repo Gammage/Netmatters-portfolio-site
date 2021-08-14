@@ -4,6 +4,15 @@
   color: #5a3c2a;
 }
 
+* h1,
+* h2,
+* p,
+* a,
+* sup {
+  color: transparent;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+}
+
 #site_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,22 +52,27 @@
           align-items: center;
   height: 150px;
   background-color: #5a3c2a;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  text-decoration: none;
 }
 
 #site_wrapper #navbar nav #logo_container span {
   color: #e8d8ce;
 }
 
-#site_wrapper #navbar nav #logo_container span h1 {
+#site_wrapper #navbar nav #logo_container span sup {
   position: relative;
   color: #D8BCAB;
   font-size: 2em;
   border: 1px solid #D8BCAB;
   padding: 0.1em;
   z-index: 0;
+  line-height: 0;
+  top: 0;
 }
 
-#site_wrapper #navbar nav #logo_container span h1:before {
+#site_wrapper #navbar nav #logo_container span sup:before {
   content: " ";
   position: absolute;
   z-index: -1;
@@ -67,6 +81,20 @@
   right: -7px;
   bottom: -7px;
   border: 3px solid #D8BCAB;
+}
+
+#site_wrapper #navbar nav #logo_container:hover {
+  background-color: #c8a088;
+}
+
+#site_wrapper #navbar nav #logo_container:hover span sup {
+  color: #5a3c2a;
+  border-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav #logo_container:hover span sup:before {
+  color: #5a3c2a;
+  border-color: #5a3c2a;
 }
 
 #site_wrapper #navbar nav ul {
@@ -89,15 +117,51 @@
   font-size: 1.25em;
   color: #5a3c2a;
   text-align: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  text-decoration: none;
+}
+
+#site_wrapper #navbar nav .nav_btn:hover {
+  color: #e8d8ce;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn:active {
+  border-color: #e8d8ce;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn:active:before, #site_wrapper #navbar nav .nav_btn:active:after {
+  border-color: #e8d8ce;
+  background-color: #5a3c2a;
 }
 
 #site_wrapper #navbar nav .nav_btn_contact {
   font-size: 1.25em;
   color: #5a3c2a;
   text-align: center;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  text-decoration: none;
   border-top: 1px solid #5a3c2a;
   border-bottom: 1px solid #5a3c2a;
   position: relative;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:hover {
+  color: #e8d8ce;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:active {
+  border-color: #e8d8ce;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:active:before, #site_wrapper #navbar nav .nav_btn_contact:active:after {
+  border-color: #e8d8ce;
+  background-color: #5a3c2a;
 }
 
 #site_wrapper #navbar nav .nav_btn_contact:before {
@@ -108,6 +172,8 @@
   top: -6px;
   width: 100%;
   left: 0px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   background-color: #5a3c2a;
 }
 
@@ -119,6 +185,26 @@
   width: 100%;
   bottom: -6px;
   left: 0px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:hover:before, #site_wrapper #navbar nav .nav_btn_contact:hover:after {
+  background-color: #e8d8ce;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:hover {
+  border-color: #e8d8ce;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:active {
+  border-color: #e8d8ce;
+  background-color: #5a3c2a;
+}
+
+#site_wrapper #navbar nav .nav_btn_contact:active:before, #site_wrapper #navbar nav .nav_btn_contact:active:after {
+  border-color: #e8d8ce;
   background-color: #5a3c2a;
 }
 
@@ -144,9 +230,15 @@
 }
 
 #site_wrapper #navbar nav .social_icons_ctn .social_icons_ctn_inner .nav_social {
-  font-size: 2em;
+  font-size: 3em;
   color: #5a3c2a;
   text-align: center;
+}
+
+#site_wrapper #navbar nav .social_icons_ctn .social_icons_ctn_inner .nav_social:hover i {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: #e8d8ce;
 }
 
 #site_wrapper main {
@@ -192,10 +284,42 @@
   margin-top: 50px;
 }
 
+#site_wrapper main #content .section {
+  margin-bottom: 25px;
+  display: block;
+}
+
 #site_wrapper main #content .section a {
   display: block;
-  border: 1px solid red;
-  margin-bottom: 25px;
+  text-decoration: none;
+  height: 100%;
+  background-color: #e8d8ce;
+}
+
+#site_wrapper main #content .section a .img_ctn {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#site_wrapper main #content .section a .img_ctn img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#site_wrapper main #content .section a .img_title {
+  width: 100%;
+  padding: 5px;
+  display: block;
+  background-color: #5a3c2a;
+  color: #e8d8ce;
+  height: 2em;
+}
+
+#site_wrapper main #content .section a .img_desc {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
 }
 
 #site_wrapper main #contact {
