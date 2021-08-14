@@ -1,5 +1,9 @@
 @import 'variables.scss';
 @import 'mixins.scss';
+@import 'index';
+@import 'aboutme';
+@import 'navbar';
+
 
 * {
     box-sizing: border-box;
@@ -17,254 +21,24 @@
     }
 }
 
+
 #site_wrapper {
     display: flex;
     flex-wrap: nowrap;
 
-    
+
+
     ul {
         list-style-type: none;
         padding-left: 0;
     }
 
-    #navbar {
-        // display: none;
-        flex: 0 0 200px;
-        height: 100%;
-
-        nav {
-            background-color: $default-button;
-            border-right: 2px solid $accent-colour;
-            height: 100vh;
-            position: fixed;
-            width: 200px;
-
-            #logo_container {
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                height: 150px;
-                background-color: $accent-colour;
-                transition: 0.9s;
-                text-decoration: none;
-                // position: relative;
-
-                span {
-                    // background-color: blue;
-                    
-                    color: $active-button-color;
-                    sup {
-                        @include logo-button-theme;
-                        line-height: 0;
-                        top: 0;
-                    }
-                }
-
-                &:hover {
-                    background-color: $default-button;
-
-                    span {
-                        sup {
-                            
-                        color: $accent-colour;
-                        border-color: $accent-colour;
-
-                        &:before {
-                            color: $accent-colour;
-                            border-color: $accent-colour;
-                        }
-                        }
-                    }
-                }
-
-            }
-
-            ul {
-                padding-left: 1em;
-                padding-right: 1em;
-
-                li {
-                    height: 100%;
-                    margin-top: 1.5em;
-
-                    a {
-                        height: 100%;
-                        width: 100%;
-                        display: block;
-                    }
-                }
-            }
-
-
-            .nav_btn {
-                @include nav-button-theme;
-            }
-
-            .nav_btn_contact {
-                @include nav-button-theme;
-                @include contact-button-theme;
-            }
-
-            .li_contact {
-                margin-top: 2.5em;
-                margin-bottom: 2.5em;
-            }
-
-            .social_icons_ctn {
-                // width: 100%;
-                display: flex;
-                flex-direction: row;
-                // flex-wrap: nowrap;
-                padding-left: 1em;
-                padding-right: 1em;
-
-                .social_icons_ctn_inner {
-
-                    text-align: center;
-
-                    .nav_social {
-                        @include social-icon-theme;
-                        
-
-                        &:hover {
-                            i {
-                                transition: 0.6s;
-                                color: $active-button-color;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-    }
 
     main {
         // order:0;
         width: 100%;
         background-color: $primarybackground-colour;
 
-        #banner {
-            // width: 100%;
-            height: 100vh;
-            background-color: blue;
-            display: flex;
-            justify-content: center;
-            position: relative;
-
-            #banner_text {
-                color: white;
-                text-align: center;
-                margin: auto;
-            }
-
-            #scroll_down {
-                position: absolute;
-                bottom: 0;
-                text-align: center;
-
-                i {
-                    color: white;
-                }
-                margin: auto;
-
-                a {
-                    display: inline-block;
-                    margin-bottom: 20px;
-                }
-            }
-        }
-
-        #content {
-
-            .row {
-                margin-top: 50px;
-            }
-
-            .section {
-                margin-bottom: 25px;
-                display:block;
-
-                a {
-                    display: block;
-                    // border: 2px solid $accent-colour;
-                    text-decoration: none;
-                    height: 100%;
-                    // width: 100%;
-                    background-color: $active-button-color;
-
-                    .img_ctn {
-                        display: block;
-                        max-width: 100%;
-                        max-height: 100%;
-
-                        img {
-                            // max-width: 100%;
-                            // max-height: 100%;
-                            // width: 500px;
-                            // height: 200px;
-                            // object-fit: contain;
-                            // object-fit: stretch;
-                            object-fit: cover;
-                            // object-fit: fill;
-
-                        }
-                    }
-
-                    .img_title {
-                        width: 100%;
-                        padding: 5px;
-                        display: block;
-                        background-color: $accent-colour;
-                        color: $active-button-color;
-                        height: 2em;
-                    }
-
-                    .img_desc {
-                        width: 100%;
-                        // height: 100%;
-                        padding: 5px;
-                        display:inline-block;
-                        
-                    }
-                }
-
-
-            }
-        }
-
-        #contact {
-            margin-bottom: 50px;
-
-            .row {
-                margin-top: 50px;
-            }
-
-            #contact_form {
-                border: 1px solid red;
-
-                table, 
-                input,
-                textarea {
-                    width: 100%;
-                }
-
-                table {
-                    border-collapse: unset;
-                }
-
-                input {
-                    height: 2em;
-                }
-
-                textarea {
-                    resize: none;
-                    height: 10em;
-                }
-
-                
-
-                }
-        }
+        
     }
 }
