@@ -6,4 +6,41 @@ main {
         align-items: center;
         background-color: blue;
     }
+
+    .name_card_ctn {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 1px solid $accent-colour;
+
+        .bio_img {
+            width: 20%;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: fill;
+            }
+        }
+
+        .bio_p {
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            width:80%;
+            // padding: 5px;
+
+            p {
+                margin: 0;
+            }
+        }
+        .card_line {
+            display: block;
+            background-color: $accent-colour;
+            // margin: 5px 0px;
+            height: 1px;
+            margin: auto;
+            // width: 50%;
+            // border: 1px solid $accent-colour
+        }
+    }
 }

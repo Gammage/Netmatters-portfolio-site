@@ -59,21 +59,6 @@ main #content_index .section a .img_ctn img {
      object-fit: cover;
 }
 
-main #content_index .section a .img_title {
-  width: 100%;
-  padding: 5px;
-  display: block;
-  background-color: #5a3c2a;
-  color: #e8d8ce;
-  height: 2em;
-}
-
-main #content_index .section a .img_desc {
-  width: 100%;
-  padding: 5px;
-  display: inline-block;
-}
-
 main #contact {
   margin-bottom: 50px;
 }
@@ -117,6 +102,45 @@ main #banner_sub {
       -ms-flex-align: center;
           align-items: center;
   background-color: blue;
+}
+
+main .name_card_ctn {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #5a3c2a;
+}
+
+main .name_card_ctn .bio_img {
+  width: 20%;
+}
+
+main .name_card_ctn .bio_img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+main .name_card_ctn .bio_p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+}
+
+main .name_card_ctn .bio_p p {
+  margin: 0;
+}
+
+main .name_card_ctn .card_line {
+  display: block;
+  background-color: #5a3c2a;
+  height: 1px;
+  margin: auto;
 }
 
 #site_wrapper #navbar {
@@ -342,6 +366,7 @@ main #banner_sub {
 
 * h1,
 * h2,
+* h3,
 * p,
 * a,
 * sup {
@@ -365,5 +390,21 @@ main #banner_sub {
 #site_wrapper main {
   width: 100%;
   background-color: #D8BCAB;
+}
+
+#site_wrapper main .card_title {
+  width: 100%;
+  padding: 5px;
+  margin: 0;
+  display: block;
+  background-color: #5a3c2a;
+  color: #e8d8ce;
+  font-size: 1.5rem;
+}
+
+#site_wrapper main .card_desc {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
 }
 /*# sourceMappingURL=styles.css.map */
