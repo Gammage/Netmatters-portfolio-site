@@ -1,0 +1,67 @@
+
+.code_example_card_ctn {
+
+    margin-bottom: 20px;
+
+    .code_example_card_squeeze {
+        display: flex;
+        flex-wrap: wrap;
+        // border: 1px solid red;
+        // background-color: $default-button;
+        padding: 20px 2%;
+
+        .code_example_card {
+            width: 100%;
+
+
+            .code {
+                width: 75%;
+                margin: auto;
+                background-color: $default-button;
+                display: block;
+                
+                h3 {
+                    width: 100%;
+                    font-size: $H3;
+                    color:$active-button-color;
+                    background-color: $accent-colour;
+                    padding: 5px;
+                }
+    
+                h4 {
+                    font-size: $H4;
+                    background-color: $default-button;
+
+                    a {
+                        color:$accent-colour;
+                    }
+                    padding: 5px 10px;
+                }
+
+                p {
+                    color:$accent-colour;
+                    background-color: $active-button-color;
+                    padding: 5px;
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+
+            span {
+                width: 80%;
+                display: block;
+                text-align: right;
+                margin: auto;
+                padding: 10px;
+                background-color: $default-button;
+
+                i {
+                    font-size: 1.5em;
+                    color:$accent-colour;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,8 +1,10 @@
-@import 'variables.scss';
-@import 'mixins.scss';
+@import 'variables';
+@import 'mixins';
+@import 'navbar';
 @import 'index';
 @import 'aboutme';
-@import 'navbar';
+@import 'coding_examples';
+@import 'scs_scheme';
 
 
 * {
@@ -10,15 +12,31 @@
     
     color: $accent-colour;
 
+    h1 {
+        font-size: $H1;
+    }
+    h2 {
+        font-size: $H2;
+    }
+    h3 {
+        font-size: $H3;
+    }
+    h4 {
+        font-size: $H4;
+    }
+
     h1,
     h2,
     h3,
+    h4,
     p,
     a,
     sup {
         color: transparent;
         text-shadow: 0 0 1px rgba(0,0,0,0.9);
     }
+
+
 
 }
 
