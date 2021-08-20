@@ -1,6 +1,6 @@
 <div id="navbar">
         <nav>
-            <a href="#" id="logo_container">
+            <a href="./index.php" id="logo_container">
                 <span>
                     <sup>BG</sup>
                 </span>
