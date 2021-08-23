@@ -40,6 +40,5 @@ function buttonToggle() {
         }
 
         sidenav.style.display = "none";
-        document.querySelector(".freeze").style.display="none";
     }
 }

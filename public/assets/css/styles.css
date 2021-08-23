@@ -854,24 +854,20 @@ main .code_section .code_card .code_content span i {
   height: 100%;
 }
 
-#site_wrapper .freeze {
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 9999999999;
-  left: 0;
-  -webkit-transition: left 0.5s;
-  transition: left 0.5s;
-}
-
-#site_wrapper .freeze.overlay_active {
-  width: 100vw;
-  height: 100vh;
-  left: 200px;
-}
-
 #site_wrapper main {
   width: 100%;
   background-color: #D8BCAB;
+}
+
+#site_wrapper main .freeze {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999999999;
+  width: 100vw;
+  height: 100vh;
+  left: 200px;
+  top: 0;
 }
 
 #site_wrapper main .card_title {

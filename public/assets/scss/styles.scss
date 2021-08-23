@@ -57,28 +57,22 @@
         
     }
 
-    
-    .freeze {
-        position: fixed;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9999999999;
-        left:0;
-        transition: left 0.5s;
-
-        &.overlay_active {
-            
-            width: 100vw;
-            height: 100vh;
-            left:200px;
-        }
-    
-        }
 
 
     main {
-        // position: fixed;
-
-       
+        // position: fixed;       
+    
+    .freeze {
+        display: none;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 9999999999;
+        width: 100vw;
+        height: 100vh;
+        left:200px;
+        top:0;
+    
+        }
 
         // order:0;
         width: 100%;
