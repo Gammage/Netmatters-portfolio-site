@@ -3,13 +3,19 @@
 
 <?php include '../public/assets/components/head.php'; ?>
 
+<!-- <?php include '../public/assets/componentscontactsubmit.php'; ?> -->
+
 <body>
 
 <div id="site_wrapper">
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
-    <main>
+    <main class="main">
+        <div class="freeze"></div>
+
+        <?php include '../public/assets/components/button.php'; ?>
+
         <div id="banner">
             <div class="banner_background"></div>
             <div class="banner_text">
@@ -20,6 +26,9 @@
                 <a href="#contact">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
             </div>
         </div>
+
+        <?php include '../public/assets/components/button.php'; ?>
+
         <div class="container" id="content_index">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
@@ -66,7 +75,7 @@
                     <p>Feel free to use the contact form for any enquiries. I will get back to you as soon as I can!</p>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                    <form id="contact_form" action="">
+                    <form id="contact_form" method="POST" action="index.php#contact">
                         <table>
                             <tbody>
                                 <tr>
@@ -101,6 +110,8 @@
                 </div>
             </div>
         </div>
+
+
 
         <div id="scroll_up">
             <a href="#banner"><i class="fas fa-arrow-up"></i><br>Scroll Up</a>

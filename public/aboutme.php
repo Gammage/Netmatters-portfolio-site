@@ -9,12 +9,16 @@
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
-    <main>
+<div class="freeze"></div>
+
+    <main class="main">
         <div id="banner_sub">
             <div class="banner_text">
                 <h1>About Me</h1>
             </div>           
         </div>
+
+        <?php include '../public/assets/components/button.php'; ?>
     
         <div class="container name_card_ctn">
             <div class="row">

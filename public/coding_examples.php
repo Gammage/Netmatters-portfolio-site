@@ -9,12 +9,15 @@
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
-    <main>
+
+    <main class="main">
         <div id="banner_sub">
             <div class="banner_text">
                 <h1>Coding Examples</h1>
             </div>
         </div>
+
+        <?php include '../public/assets/components/button.php'; ?>
 
         <div class="container">
             <div class="row">
