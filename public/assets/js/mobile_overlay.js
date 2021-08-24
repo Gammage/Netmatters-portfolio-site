@@ -7,7 +7,7 @@ let switchToggle = false;
 const sidenav = document.getElementById("navbar");
 const burger = document.querySelectorAll(".hamburger");
 const burgerContainer = document.querySelectorAll(".navbar_burger");
-const overlay = document.querySelector(".freeze");
+const overlay = document.querySelector(".site_overlay");
 const main = document.querySelector("main");
 
 for (let i = 0; i < burger.length; i = i + 1) {

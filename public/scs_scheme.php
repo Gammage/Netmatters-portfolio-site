@@ -9,6 +9,7 @@
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
+<div class="site_overlay"></div>
 
     <main class="main">
         <div id="banner_sub">

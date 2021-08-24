@@ -11,7 +11,7 @@
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
-<!-- <div class="freeze"></div> -->
+<div class="site_overlay"></div>
 
     <main class="main">
 
