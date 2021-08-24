@@ -8,7 +8,7 @@ const sidenav = document.getElementById("navbar");
 const burger = document.querySelectorAll(".hamburger");
 const burgerContainer = document.querySelectorAll(".navbar_burger");
 const overlay = document.querySelector(".freeze");
-const Main = document.querySelector(".main");
+const main = document.querySelector("main");
 
 for (let i = 0; i < burger.length; i = i + 1) {
     burger[i].addEventListener("click", function(){
@@ -28,9 +28,9 @@ function buttonToggle() {
         }
 
         sidenav.style.display = "block";
-        overlay.classList.add("overlay_active");
+        // sidenav.style.position = "relative";
+        main.classList.add("freeze");
         overlay.style.display = "block";
-        
 
     } else {
 
@@ -40,5 +40,7 @@ function buttonToggle() {
         }
 
         sidenav.style.display = "none";
+        main.classList.remove("freeze");
+        overlay.style.display = "none";
     }
 }

@@ -1,8 +1,6 @@
-#site_wrapper {
-    
-    #navbar {
-        // display:relative;
-        // display: none;
+  #site_wrapper {
+
+  #navbar {
         flex: 0 0 200px;
         height: 100%;
         // transition: 0.6s;
@@ -32,7 +30,6 @@
                 background-color: $accent-colour;
                 transition: 0.9s;
                 text-decoration: none;
-                // position: relative;
 
                 span {
                     // background-color: blue;
@@ -125,37 +122,46 @@
 
     main {
         .navbar_burger {
-            display:inline-block;
             position: fixed;
             bottom:0;
             z-index:999;
             background-color: $accent-colour;
             border:2px solid $active-button-color;
     
-                .hamburger-box {
+            .hamburger-box {
 
-                    .hamburger-inner {
+                .hamburger-inner {
+                    background-color: $active-button-color;
+
+                    &:before,
+                    &:after {
                         background-color: $active-button-color;
-    
-                        &:before,
-                        &:after {
-                            background-color: $active-button-color;
-                        }
                     }
-                }   
+                }
+            }   
         }
     }
-
-    
 }
 
 @media (min-width: 767.98px) {
-    .navbar_burger {
-        display: none;
+    #site_wrapper {
+        display: flex;
     }
+    main {
+        .navbar_burger {
+            display: none;
+        }
+    }
+    #navbar {
+        display: block;
+    }
+
 }
 
 @media (max-width: 767.98px) { 
+    
+
+
     #navbar {
         display: none;
     }

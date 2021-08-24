@@ -238,7 +238,6 @@
 }
 
 #site_wrapper main .navbar_burger {
-  display: inline-block;
   position: fixed;
   bottom: 0;
   z-index: 999;
@@ -255,8 +254,16 @@
 }
 
 @media (min-width: 767.98px) {
-  .navbar_burger {
+  #site_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .navbar_burger {
     display: none;
+  }
+  #navbar {
+    display: block;
   }
 }
 
@@ -833,41 +840,14 @@ main .code_section .code_card .code_content span i {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
 }
 
-#site_wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
 #site_wrapper ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-#site_wrapper .darken {
-  background-color: black;
-  position: fixed;
-  z-index: 1000000;
-  width: 100%;
-  height: 100%;
-}
-
 #site_wrapper main {
   width: 100%;
   background-color: #D8BCAB;
-}
-
-#site_wrapper main .freeze {
-  display: none;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 9999999999;
-  width: 100vw;
-  height: 100vh;
-  left: 200px;
-  top: 0;
 }
 
 #site_wrapper main .card_title {

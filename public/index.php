@@ -11,10 +11,9 @@
 
 <?php include '../public/assets/components/navbar.php'; ?>
 
-    <main class="main">
-        <div class="freeze"></div>
+<!-- <div class="freeze"></div> -->
 
-        <?php include '../public/assets/components/button.php'; ?>
+    <main class="main">
 
         <div id="banner">
             <div class="banner_background"></div>
@@ -118,7 +117,6 @@
         </div>
     </main>
 </div>
-
 <?php include '../public/assets/components/script.php'; ?>
 
 </body>
