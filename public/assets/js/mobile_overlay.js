@@ -39,8 +39,14 @@ function buttonToggle() {
             burger[i].classList.remove("is-active");
         }
 
-        sidenav.style.display = "none";
-        main.classList.remove("freeze");
-        overlay.style.display = "none";
+        
     }
+    document.querySelector(".site_overlay").addEventListener("click", function() {
+        overlay.style.display = "none";
+        main.classList.remove("freeze");
+        sidenav.style.display = "none";  
+        overlay.style.display = "none";
+        burger.classList.remove("is-active");
+    });
 }
+
