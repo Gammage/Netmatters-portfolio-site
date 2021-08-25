@@ -3,7 +3,7 @@
 // on off switch. false (off) default;
 let switchToggle = false;
 
-// const mainPage = document.getElementById("frozen");
+const body = document.querySelector("body");
 const sidenav = document.getElementById("navbar");
 const burger = document.querySelectorAll(".hamburger");
 const burgerContainer = document.querySelectorAll(".navbar_burger");
@@ -22,31 +22,18 @@ function buttonToggle() {
     if (switchToggle) {
         console.log("yes");
 
-        for (let i = 0; i < burger.length; i = i + 1) {
-            console.log(burger[i]);
-            burger[i].classList.add("is-active");
-        }
-
         sidenav.style.display = "block";
-        // sidenav.style.position = "relative";
         main.classList.add("freeze");
         overlay.style.display = "block";
+        body.classList.add("hideme");
+    } 
 
-    } else {
-
-        for (let i = 0; i < burger.length; i = i + 1) {
-            console.log(burger[i]);
-            burger[i].classList.remove("is-active");
-        }
-
-        
-    }
     document.querySelector(".site_overlay").addEventListener("click", function() {
         overlay.style.display = "none";
         main.classList.remove("freeze");
         sidenav.style.display = "none";  
         overlay.style.display = "none";
-        burger.classList.remove("is-active");
+        body.classList.remove("hideme");
     });
 }
 

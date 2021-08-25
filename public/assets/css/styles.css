@@ -3,30 +3,6 @@
       -ms-flex: 0 0 200px;
           flex: 0 0 200px;
   height: 100%;
-  -webkit-animation: fadeInLeft 0.5s;
-          animation: fadeInLeft 0.5s;
-}
-
-@-webkit-keyframes fadeInLeft {
-  0% {
-    -webkit-transform: translateX(-200px);
-            transform: translateX(-200px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-}
-
-@keyframes fadeInLeft {
-  0% {
-    -webkit-transform: translateX(-200px);
-            transform: translateX(-200px);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
 }
 
 #site_wrapper #navbar nav {
@@ -271,6 +247,28 @@
 @media (max-width: 767.98px) {
   #navbar {
     display: none;
+    -webkit-animation: fadeInLeft 0.5s;
+            animation: fadeInLeft 0.5s;
+  }
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+  }
+  @keyframes fadeInLeft {
+    0% {
+      -webkit-transform: translateX(-200px);
+              transform: translateX(-200px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
   }
 }
 
@@ -841,6 +839,14 @@ main .code_section .code_card .code_content span i {
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
 }
 
+.hideme {
+  overflow: hidden;
+}
+
+.showme {
+  overflow: auto;
+}
+
 #site_wrapper .site_overlay {
   display: none;
   position: fixed;
@@ -854,7 +860,6 @@ main .code_section .code_card .code_content span i {
   animation: fade .5s;
   cursor: pointer;
   height: 100%;
-  overflow: hidden;
 }
 
 #site_wrapper .freeze {
@@ -865,6 +870,17 @@ main .code_section .code_card .code_content span i {
   z-index: 999;
   -webkit-animation: fadeInLeft 0.5s;
           animation: fadeInLeft 0.5s;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 
 @keyframes fadeInLeft {

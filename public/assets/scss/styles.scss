@@ -37,6 +37,14 @@
     }
 }
 
+.hideme {
+    overflow:hidden;
+}
+
+.showme {
+    overflow:auto;
+}
+
 #site_wrapper {
     // display:flex;
 
@@ -53,7 +61,6 @@
         animation: fade .5s;
         cursor: pointer;
         height: 100%;
-        overflow:hidden;
     }
 
     .freeze {
