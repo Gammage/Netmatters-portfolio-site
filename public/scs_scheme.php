@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../public/assets/components/head.php'; ?>
+<?php include './assets/components/head.php'; ?>
 
 <body>
 
 <div id="site_wrapper">
 
-<?php include '../public/assets/components/navbar.php'; ?>
+<?php include './assets/components/navbar.php'; ?>
 
 <div class="site_overlay"></div>
 
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <?php include '../public/assets/components/button.php'; ?>
+        <?php include './assets/components/button.php'; ?>
         
         <div class="container scs_height">
             <div class="row">
@@ -31,7 +31,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 card_spacing">
                     <a href="https://teamtreehouse.com/benjamingammage2" class="treehouse_section">
                         <span class="img_logo_tree">
-                            <img src="../public/assets/images/scs_scheme_page/TeamTreehouse.png" alt="Treehouse logo">
+                            <img src="./assets/images/scs_scheme_page/TeamTreehouse.png" alt="Treehouse logo">
                         </span>
                             <p>Treehouse is an online learning community, featuring videos covering a number of topics from basic HTML to C# programming, iOS development, data analysis, and more. By completing courses users can earn points, allowing them to track their progress and see how much they've covered in certain areas.</p>
                             <h4>Total Score; 12,202</h4>
@@ -41,7 +41,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 card_spacing">
                     <a href="https://www.netmatters.co.uk/" class="netmatters_section">
                         <span class="img_logo_nm">
-                            <img src="../public/assets/images/scs_scheme_page/netmatters-logo.png" alt="Netmatters">
+                            <img src="./assets/images/scs_scheme_page/netmatters-logo.png" alt="Netmatters">
                         </span>
                         <span class="nm_list">
                             <ul> 
@@ -63,7 +63,7 @@
     </main>
 </div>
 
-<?php include '../public/assets/components/script.php'; ?>
+<?php include './assets/components/script.php'; ?>
 
 </body>
 </html>

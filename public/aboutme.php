@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../public/assets/components/head.php'; ?>
+<?php include './assets/components/head.php'; ?>
 
 <body>
 
 <div id="site_wrapper">
 
-<?php include '../public/assets/components/navbar.php'; ?>
+<?php include './assets/components/navbar.php'; ?>
 
 <div class="site_overlay"></div>
 
@@ -18,7 +18,7 @@
             </div>           
         </div>
 
-        <?php include '../public/assets/components/button.php'; ?>
+        <?php include './assets/components/button.php'; ?>
     
         <div class="container name_card_ctn">
             <div class="row">
@@ -28,7 +28,7 @@
                     <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 img_ctn bio_img">
                         <div class="selfie_container">
-                            <img src="../public/assets/images/selfie/selfiefornetmatters.png" alt="">
+                            <img src="./assets/images/selfie/selfiefornetmatters.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 bio_p">
@@ -107,7 +107,7 @@
     </main>
 </div>
 
-<?php include '../public/assets/components/script.php'; ?>
+<?php include './assets/components/script.php'; ?>
 
 </body>
 </html>

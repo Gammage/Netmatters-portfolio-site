@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include '../public/assets/components/head.php'; ?>
+<?php include './assets/components/head.php'; ?>
 
 <body>
 
 <div id="site_wrapper">
 
-<?php include '../public/assets/components/navbar.php'; ?>
+<?php include './assets/components/navbar.php'; ?>
 
 <div class="site_overlay"></div>
 
@@ -18,7 +18,7 @@
             </div>
         </div>
 
-        <?php include '../public/assets/components/button.php'; ?>
+        <?php include './assets/components/button.php'; ?>
 
         <div class="container">
             <div class="row">
@@ -150,7 +150,7 @@
     </main>
 </div>
 
-<?php include '../public/assets/components/script.php'; ?>
+<?php include './assets/components/script.php'; ?>
 
 </body>
 </html>
