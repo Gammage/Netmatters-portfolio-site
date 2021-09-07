@@ -93,7 +93,7 @@
                         <div class="code_example_card">     
                             <div class="code">
                                 <h3>Sass/Css</h3>
-                                <h4><a href="#"><i class="fas fa-angle-right"></i> Html/css Reflection</a></h4>
+                                <h4><a href="#"><i class="fas fa-angle-right"></i>Netmatters reflection task</a></h4>
                                 <p>@each $name, $light_colour, $dark_colour in $colours &lbrace;<br>
                                     &nbsp;&nbsp;&nbsp;&nbsp;.button_#{$name} &lbrace; // compiles into .button_web<br>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i &lbrace;<br>

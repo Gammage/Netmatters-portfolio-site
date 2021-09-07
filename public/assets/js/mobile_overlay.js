@@ -10,11 +10,11 @@ const burgerContainer = document.querySelectorAll(".navbar_burger");
 const overlay = document.querySelector(".site_overlay");
 const main = document.querySelector("main");
 
-for (let i = 0; i < burger.length; i = i + 1) {
-    burger[i].addEventListener("click", function(){
-        buttonToggle();
-    });
+
+burger.addEventListener("click", function(){
+    buttonToggle();
 }
+ 
 
 function buttonToggle() {
     switchToggle = !switchToggle;

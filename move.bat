@@ -1,3 +1,3 @@
-@RD /S /Q "C:\xampp\htdocs\public"
-mkdir "C:\xampp\htdocs\public"
+@RD /S /Q "C:\xampp\htdocs"
+mkdir "C:\xampp\htdocs"
 xcopy "C:\Users\Benja\OneDrive\Documents\GitHub\Netmatters-portfolio-site\public" "C:\xampp\htdocs\public" /E
