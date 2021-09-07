@@ -117,7 +117,7 @@
         </div>
     </main>
 </div>
-<?php include '../assets/components/script.php'; ?>
+<?php include './assets/components/script.php'; ?>
 
 </body>
 </html>
