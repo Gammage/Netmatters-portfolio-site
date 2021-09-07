@@ -33,8 +33,8 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
                     <a href="#">
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
-                        <h3 class="card_title">HTML/JS/PHP Task</h3>                        
-                        <p class="card_desc">My first task assigned from Netmatters. This was to emulate the website using skills I have learnt, Including the aforementioned languages in the title and database management, using Xampp.</p>
+                        <h3 class="card_title">Netmatters reflection task</h3>                        
+                        <p class="card_desc">The first task assigned from Netmatters was to emulate the homepage of their website. This was achieved using the languages mentioned above, alongside database management using xampp.</p>
                         <span class="button"></span>
                     </a>
                 </div>
@@ -42,7 +42,7 @@
                     <a href="#">
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
                         <h3 class="card_title">Pairs project</h3>  
-                        <p class="card_desc">I was paired with another sudent for this collaborative task, creating a website from scatch. Much like netmatters, This had to be pixel accurate from the image given.</p>
+                        <p class="card_desc">I was paired with another student for this collaborative task, which was to create a website from scratch. Similar to recreating the Netmatters homepage this had to be pixel perfect from the image given.</p>
                         <span class="button"></span>
                     </a>
                 </div>
@@ -58,7 +58,7 @@
                     <a href="#">  
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
                         <h3 class="card_title">Javascript reflection</h3>
-                        <p class="card_desc">Demonstrating the use of Javascript by using an API that would load a random image, which could be assigned to an email address, which was validated.</p>
+                        <p class="card_desc">For this project I was tasked with pulling a random image from an API, which could then be assigned to an email address which was validated using regex</p>
                         <span class="button"></span>
                     </a>
                 </div>

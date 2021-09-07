@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 bio_p">
-                        <p class="card_desc">Web Developer in training with Netmatters, based in Ipswich. thanks to the <a href="https://www.netmatters.co.uk/scions-coalition-scheme">Scion Coalition Scheme</a>, I have been able to start a exciting new career and looking for opportunities to further my skills </p>
+                        <p class="card_desc">A Web Developer training with Netmatters and based in Ipswich. Thanks to The <a href="https://www.netmatters.co.uk/scions-coalition-scheme">Scion Coalition Scheme</a> I have been able to start a exciting new career, and I'm looking for opportunities to further my skills.</p>
                         <span class="card_line"></span>
                         <p class="card_desc">Below are languages I have experience with. Whilst I do have a particular interest with the languages/services listed, Im open to any opportunites to learn and further my career. To that end, please do not hesitate to <a href="index.php#contact">contact me</a></p>
                     </div>
