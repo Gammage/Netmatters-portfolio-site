@@ -34,7 +34,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 bio_p">
                         <p class="card_desc">Web Developer in training with Netmatters, based in Ipswich. thanks to the <a href="https://www.netmatters.co.uk/scions-coalition-scheme">Scion Coalition Scheme</a>, I have been able to start a exciting new career and looking for opportunities to further my skills </p>
                         <span class="card_line"></span>
-                        <p class="card_desc">Below are languages I have experience with. Whilst I do have a particular interest with the languages/services listed, Im open to any opportunites to learn and further my career. To that end, please do not hesitate to <a href="/public/index.php#contact">contact me</a></p>
+                        <p class="card_desc">Below are languages I have experience with. Whilst I do have a particular interest with the languages/services listed, Im open to any opportunites to learn and further my career. To that end, please do not hesitate to <a href="index.php#contact">contact me</a></p>
                     </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         <div class="code_head"><h3><i class="fab fa-html5"></i></h3></div>
                         <div class="code_content">
                             <h3>Html</h3>
-                            <p>Website creation, Bootstrap, wordpress.</p>
+                            <p>Website creation, Bootstrap, Wordpress.</p>
                             <span><h4><i class="fab fa-wordpress"></i><i class="fab fa-bootstrap"></i></h4></span>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                         <div class="code_head"><h3><i class="fab fa-sass"></i></h3></div>
                         <div class="code_content">
                             <h3>Scss</h3>
-                            <p>scss, mixins, variables, Media queries, partials</p>
+                            <p>Scss, mixins, variables, Media queries, partials</p>
                             <span><h4><i class="fab fa-css3"></i><i class="fab fa-bootstrap"></i></h4></span>
                         </div>
                     </div>

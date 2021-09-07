@@ -19,7 +19,7 @@
             <div class="banner_background"></div>
             <div class="banner_text">
                 <h1>My name is Benjamin Gammage</h1>
-                <h2>Im a web Developer</h2>
+                <h2>I'm a web Developer</h2>
             </div>
             <div id="scroll_down">
                 <a href="#contact">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                     <h3>Get in Touch</h3>
-                    <p>Feel free to use the contact form for any enquiries. I will get back to you as soon as I can!</p>
+                    <p>Feel free to use the contact form for any inquiries. I will get back to you as soon as I can!</p>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
                     <form id="contact_form" method="POST" action="index.php#contact">
