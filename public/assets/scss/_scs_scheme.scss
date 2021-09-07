@@ -1,6 +1,8 @@
 main {
 }
 
+
+
 .card_spacing {
     margin-bottom:40px;
 }
@@ -89,19 +91,13 @@ main {
    
     &:hover {
         text-decoration: none;
-        background-color: $accent-colour;
-       
+        background-color: $default-button;
+    }
+}
 
-        h4,
-        p
-         {    
-            color: $active-button-color;
-        }
+@media (min-width: 992px) { 
 
-        ul {
-            li {
-                color:$active-button-color;
-            }
-        }
+    .scs_height {
+        height:100vh;
     }
 }

@@ -20,7 +20,7 @@
 
         <?php include '../public/assets/components/button.php'; ?>
         
-        <div class="container">
+        <div class="container scs_height">
             <div class="row">
                 <div class="col-12">
                     <div class="scion_intro">
