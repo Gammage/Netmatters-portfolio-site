@@ -615,6 +615,10 @@ main .code_section .code_card .code_content span i {
   text-shadow: none;
 }
 
+#code_container .row {
+  margin-top: 30px;
+}
+
 .code_example_card_ctn {
   margin-bottom: 20px;
 }

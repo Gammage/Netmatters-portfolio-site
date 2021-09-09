@@ -20,7 +20,7 @@
 
         <?php include './assets/components/button.php'; ?>
 
-        <div class="container">
+        <div id="code_container" class="container">
             <div class="row">
                 <div class="col-12 code_example_card_ctn">
                     <div class="code_example_card_squeeze">

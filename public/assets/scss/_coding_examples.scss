@@ -1,3 +1,8 @@
+#code_container {
+    .row {
+        margin-top:30px;
+    }
+}
 
 .code_example_card_ctn {
 
@@ -13,7 +18,6 @@
 
 
             .code {
-                // width: 75%;
                 margin: auto;
                 background-color: $default-button;
                 display: block;
