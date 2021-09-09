@@ -5,7 +5,7 @@ let switchToggle = false;
 
 const body = document.querySelector("body");
 const sidenav = document.getElementById("navbar");
-const burger = document.querySelector(".hamburger");
+const burger = document.querySelectorAll(".hamburger");
 const burgerContainer = document.querySelectorAll(".navbar_burger");
 const overlay = document.querySelector(".site_overlay");
 const main = document.querySelector("main");
