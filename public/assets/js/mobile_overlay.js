@@ -16,6 +16,10 @@ for (let i = 0; i < burger.length; i = i + 1) {
     });
 }
 
+overlay.addEventListener("click", function(event) {
+    buttonToggle();
+})
+
 function buttonToggle() {
     switchToggle = !switchToggle;
 
@@ -40,10 +44,11 @@ function buttonToggle() {
             burger[i].classList.remove("is-active");
         }
 
+       
         overlay.style.display = "none";
         main.classList.remove("freeze");
         sidenav.style.display = "none";  
         overlay.style.display = "none";
         body.classList.remove("hideme");
-    };
-}
+    }
+};
