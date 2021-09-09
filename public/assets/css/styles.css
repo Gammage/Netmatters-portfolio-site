@@ -633,7 +633,6 @@ main .code_section .code_card .code_content span i {
 }
 
 .code_example_card_ctn .code_example_card_squeeze .code_example_card .code {
-  width: 75%;
   margin: auto;
   background-color: #c8a088;
   display: block;
