@@ -31,7 +31,7 @@
         <div class="container" id="content_index">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
-                    <a href="#">
+                    <a href="./public/index.php">
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
                         <h3 class="card_title">Netmatters reflection task</h3>                        
                         <p class="card_desc">The first task assigned from Netmatters was to emulate the homepage of their website. This was achieved using the languages mentioned above, alongside database management using xampp.</p>
