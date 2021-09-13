@@ -55,10 +55,10 @@
                     </a>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
-                    <a href="#">  
-                        <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
+                    <a href="./javascriptreflectiontask/index.html">  
+                        <span class="img_ctn"><img src="./assets/images/javascriptreflectiontask.png" alt="javascript reflection"></span>
                         <h3 class="card_title">Javascript reflection</h3>
-                        <p class="card_desc">For this project I was tasked with pulling a random image from an API, which could then be assigned to an email address which was validated using regex</p>
+                        <p class="card_desc">For this project I was tasked with pulling a random image from an API, which could then be assigned to an email address which was validated using regex.</p>
                         <span class="button"></span>
                     </a>
                 </div>
