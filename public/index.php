@@ -41,8 +41,8 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
                     <a href="#">
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
-                        <h3 class="card_title">Pairs project</h3>  
-                        <p class="card_desc">I was paired with another student for this collaborative task, which was to create a website from scratch. Similar to recreating the Netmatters homepage this had to be pixel perfect from the image given.</p>
+                        <h3 class="card_title">WordPress Woocommerce - Coming soon</h3>  
+                        <p class="card_desc">Working on a woocommerce project</p>
                         <span class="button"></span>
                     </a>
                 </div>
