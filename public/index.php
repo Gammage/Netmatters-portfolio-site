@@ -39,7 +39,7 @@
                     </a>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
-                    <a href="#">
+                    <a>
                         <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
                         <h3 class="card_title">WordPress Woocommerce - Coming soon</h3>  
                         <p class="card_desc">Working on a woocommerce project</p>
