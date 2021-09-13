@@ -48,7 +48,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
                     <a href="#">
-                        <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
+                        <span class="img_ctn"><img src="./assets/images/portfolio_imgs/wordpresstask.png" alt="Wordpress image"></span>
                         <h3 class="card_title">Wordpress reflection</h3>
                         <p class="card_desc">Using the CMS wordpress, I was tasked with creating a website. I decided to create a concept website my sister could use for her business!</p>
                         <span class="button"></span>
