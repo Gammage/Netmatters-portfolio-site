@@ -9,6 +9,7 @@ const burger = document.querySelectorAll(".hamburger");
 const burgerContainer = document.querySelectorAll(".navbar_burger");
 const overlay = document.querySelector(".site_overlay");
 const main = document.querySelector("main");
+const pushy = document.querySelector(".navbar_push")
 
 for (let i = 0; i < burger.length; i = i + 1) {
     burger[i].addEventListener("click", function(){
@@ -31,10 +32,10 @@ function buttonToggle() {
             burger[i].classList.add("is-active");
         }
 
+        
         sidenav.style.display = "block";
-        main.classList.add("freeze");
         overlay.style.display = "block";
-        body.classList.add("hideme");
+
 
     } else {
         console.log("no");
@@ -46,9 +47,7 @@ function buttonToggle() {
 
        
         overlay.style.display = "none";
-        main.classList.remove("freeze");
         sidenav.style.display = "none";  
-        overlay.style.display = "none";
         body.classList.remove("hideme");
     }
 };
