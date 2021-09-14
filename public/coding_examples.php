@@ -40,7 +40,7 @@
                                         &nbsp;&nbsp;&nbsp;&nbsp;alert("refresh page");<br>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&rbrace;);<br>
                                         &rbrace;;</p>
-                                  <span><a href="https://github.com/Gammage/javascript_reflection_challenge_two"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
+                                  <span><a href="https://github.com/Gammage/javascript_reflection_challenge_two"target="_blank"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                     $conn->close();
                                     <br>?&gt;
                                 </p>
-                                <span><a href="https://github.com/Gammage/PHP_JS_HTML_CSS_reflection"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
+                                <span><a href="https://github.com/Gammage/PHP_JS_HTML_CSS_reflection" target="_blank"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                                                 &nbsp;&nbsp;&nbsp;&nbsp;&rbrace;<br>
                                                 &rbrace;
                                 </p>
-                                <span><a href="https://github.com/Gammage/PHP_JS_HTML_CSS_reflection"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
+                                <span><a href="https://github.com/Gammage/PHP_JS_HTML_CSS_reflection" target="_blank"><i class="fas fa-angle-double-right"></i><i class="fab fa-github"></i></a></span>
                             </div>
                         </div>
                     </div>

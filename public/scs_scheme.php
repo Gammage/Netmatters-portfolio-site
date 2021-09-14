@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 card_spacing">
-                    <a href="https://teamtreehouse.com/benjamingammage2" class="treehouse_section">
+                    <a href="https://teamtreehouse.com/benjamingammage2" target="_blank" class="treehouse_section">
                         <span class="img_logo_tree">
                             <img src="./assets/images/scs_scheme_page/TeamTreehouse.png" alt="Treehouse logo">
                         </span>
@@ -39,7 +39,7 @@
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 card_spacing">
-                    <a href="https://www.netmatters.co.uk/" class="netmatters_section">
+                    <a href="https://www.netmatters.co.uk/" target="_blank" class="netmatters_section">
                         <span class="img_logo_nm">
                             <img src="./assets/images/scs_scheme_page/netmatters-logo.png" alt="Netmatters">
                         </span>

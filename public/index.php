@@ -31,10 +31,10 @@
             <div class="container" id="content_index">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
-                        <a href="./public/index.php">
+                        <a href="./public/index.php" target="_blank">
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/netmattersreflection.png" alt="netmatters image"></span>
                             <h3 class="card_title">Netmatters reflection task</h3>                        
-                            <p class="card_desc">The first task assigned from Netmatters was to emulate the homepage of their website. This was achieved using the languages mentioned above, alongside database management using xampp.</p>
+                            <p class="card_desc">My first project from Netmatters was to emulate the homepage of their website. This was achieved using the languages mentioned above, alongside database management using xampp.</p>
                             <span class="button"></span>
                         </a>
                     </div>
@@ -50,15 +50,15 @@
                         <a>
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/wordpresstask.png" alt="Wordpress image"></span>
                             <h3 class="card_title">Wordpress reflection</h3>
-                            <p class="card_desc">Using the CMS wordpress, I was tasked with creating a website. I decided to create a concept website my sister could use for her business!</p>
+                            <p class="card_desc">Using the CMS wordpress, I created a website my sister could use for her business.</p>
                             <span class="button"></span>
                         </a>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
-                        <a href="./javascriptreflectiontask/index.html">  
+                        <a href="./javascriptreflectiontask/index.html" target="_blank">  
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/javascriptreflectiontask.png" alt="javascript reflection"></span>
                             <h3 class="card_title">Javascript reflection</h3>
-                            <p class="card_desc">For this project I was tasked with pulling a random image from an API, which could then be assigned to an email address which was validated using regex.</p>
+                            <p class="card_desc">This projected demonstrated how I could pull a random image from an API, which could then be assigned to an email address which was validated using regex.</p>
                             <span class="button"></span>
                         </a>
                     </div>

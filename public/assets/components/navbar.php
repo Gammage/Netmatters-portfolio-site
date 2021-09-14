@@ -17,10 +17,10 @@
             </ul>
             <div class="container">
             <div class="row social_icons_ctn">
-                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://github.com/Gammage"><i class="fab fa-github-square"></i></a></div>
-                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://www.linkedin.com/in/benjamin-gammage-315299182/"><i class="fab fa-linkedin"></i></a></div>
-                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://twitter.com/GammageBenjamin"><i class="fab fa-twitter-square"></i></a></div>
-                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://www.facebook.com/benjamin.gammage/"><i class="fab fa-facebook-square"></i></a></div>
+                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://github.com/Gammage" target="_blank"><i class="fab fa-github-square"></i></a></div>
+                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://www.linkedin.com/in/benjamin-gammage-315299182/" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://twitter.com/GammageBenjamin" target="_blank"><i class="fab fa-twitter-square"></i></a></div>
+                <div class="social_icons_ctn_inner col-6"><a class="nav_social" href="https://www.facebook.com/benjamin.gammage/" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
             </div>
             </div>
         </nav>
