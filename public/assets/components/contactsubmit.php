@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "netmatters";
+    $dbname = "netmatters_portfolio_site";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     die("Connection failed: " . $conn->connect_error);
     }
  
-    $firstname =  mysqli_real_escape_string($conn, $_POST['fname']);
+    $firstname =  mysqli_real_escape_string($conn, $_POST['first_name']);
 
     if(strlen($firstname) > 0 && preg_match("/^[a-zA-Z-' ]*$/",$firstname)) {
         $firstnameError = false;
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $firstnameError = true;
     }
 
-    $lastname =  mysqli_real_escape_string($conn, $_POST['fname']);
+    $lastname =  mysqli_real_escape_string($conn, $_POST['last_name']);
 
     if(strlen($lastname) > 0 && preg_match("/^[a-zA-Z-' ]*$/",$lastname)) {
         $lastnameError = false;
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $lastnameError = true;
     }
 
-    $email =  mysqli_real_escape_string($conn, $_POST['femail']);
+    $email =  mysqli_real_escape_string($conn, $_POST['email_address']);
     // $emailregex = "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/";
 
     // Filter_validate_email or regex?
@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $emailvalid = true;
     }
 
-    $subject =  mysqli_real_escape_string($conn, $_POST['fsubject']);
+    $subject =  mysqli_real_escape_string($conn, $_POST['subject']);
 
     if(strlen($subject) > 0) {
         $subjectvalid = false;
@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $subjectvalid = true;
     }
 
-    $message =  mysqli_real_escape_string($conn, $_POST['fmessage']);
+    $message =  mysqli_real_escape_string($conn, $_POST['message']);
 
     if(strlen($message) > 0) {
         $messagevalid = false;
@@ -70,19 +70,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if(!$firstnameError && !$lastnameError && !$emailvalid && !$subjectvalid && !$messagevalid) {
-        $sql = "INSERT INTO `contactus`(`name`, `email`, `subject`, `message`) VALUES ('$name','$email','$subject','$message')";
+        $sql = "INSERT INTO `contactme`(`firstname`, `lastname`, `email`, `subject`, `message`) VALUES ('$firstname', '$lastname', '$email', '$subject', '$message')";
         
         if(mysqli_query($conn, $sql)){
-
+            echo "success";
             // $successMessage = true;
             // $showModal = true;
             
-            $name = '';
+            $firstname = '';
+            $lastname = '';
             $email = '';
-            $telephone = '';
             $subject = '';
             $message = '';
-            $marketing = '';
 
         } else {
             // $failureMessage = true;

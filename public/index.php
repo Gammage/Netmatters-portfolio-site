@@ -3,7 +3,7 @@
 
 <?php include './assets/components/head.php'; ?>
 
-<!-- <?php include './assets/componentscontactsubmit.php'; ?> -->
+<?php include './assets/components/contactsubmit.php'; ?>
 
 <body>
 
@@ -79,25 +79,45 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <input type="text" id="first_name" name="first_name" placeholder="First Name*">
+                                            <input type="text" id="first_name" name="first_name" value="<?php if (empty($firstname)) {
+                                                echo '';
+                                            } else {
+                                                echo $firstname;
+                                            }?>">
                                         </td>
                                         <td>
-                                            <input type="text" id="last_name" name="last_name" placeholder="Last Name*">
+                                            <input type="text" id="last_name" name="last_name" value="<?php if (empty($lastname)) {
+                                                echo '';
+                                            } else {
+                                                echo $lastname;
+                                            }?>">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <input type="text" id="email_address" name="email_address" placeholder="Email Address*">
+                                            <input type="text" id="email_address" name="email_address" placeholder="test" value="<?php if (empty($email)) {
+                                                echo '';
+                                            } else {
+                                                echo $email;
+                                            }?>">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                                            <input type="text" id="subject" name="subject" value="<?php if (empty($subject)) {
+                                                echo '';
+                                            } else {
+                                                echo $subject;
+                                            }?>">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
+                                            <textarea name="message" id="message" value="<?php if (empty($message)) {
+                                                echo '';
+                                            } else {
+                                                echo $message;
+                                            }?>"></textarea>
                                         </td>
                                     </tr>
                                 </tbody>
