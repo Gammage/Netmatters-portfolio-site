@@ -35,6 +35,7 @@ function buttonToggle() {
         
         sidenav.style.display = "block";
         overlay.style.display = "block";
+        body.classList.add("lock");
 
 
     } else {
@@ -49,5 +50,18 @@ function buttonToggle() {
         overlay.style.display = "none";
         sidenav.style.display = "none";  
         body.classList.remove("hideme");
+        body.classList.remove("lock");
     }
 };
+
+$( document ).ready(function() {
+    $('a[href*="#"]').on("click", (function() {
+        sidenav.style.display = "none";
+        overlay.style.display = "none";
+        body.classList.remove("lock");
+        $('.hamburger').removeClass('is-active');
+        switchToggle = !switchToggle;
+    }));
+});
+
+

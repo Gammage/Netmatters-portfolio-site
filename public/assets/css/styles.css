@@ -861,6 +861,11 @@ main .code_section .code_card .code_content span i {
   overflow: auto;
 }
 
+.lock {
+  overflow: hidden;
+  height: 100%;
+}
+
 #site_wrapper .site_overlay {
   display: none;
   position: fixed;
