@@ -1,4 +1,8 @@
-  #site_wrapper {
+.navbar_burger_left {
+    left:200px;
+}
+
+#site_wrapper {
 
   #navbar {
         flex: 0 0 200px;
@@ -114,7 +118,7 @@
         z-index:999;
         background-color: $accent-colour;
         border:2px solid $active-button-color;
-        left:0px;
+        // left:0px;
 
         .hamburger-box {
 

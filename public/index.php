@@ -22,7 +22,7 @@
                     <h2>I'm a web Developer</h2>
                 </div>
                 <div id="scroll_down">
-                    <a href="#contact">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
+                    <a href="#content_index">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@
 
             <div class="container" id="content_index">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 section">
                         <a href="./public/index.php" target="_blank">
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/netmattersreflection.png" alt="netmatters image"></span>
                             <h3 class="card_title">Netmatters reflection task</h3>                        
@@ -38,15 +38,15 @@
                             <span class="button"></span>
                         </a>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 section">
                         <a>
-                            <span class="img_ctn"><img src="https://picsum.photos/250" alt=""></span>
+                            <span class="img_ctn"><img src="https://picsum.photos/1600/900" alt=""></span>
                             <h3 class="card_title">WordPress Woocommerce - Coming soon</h3>  
                             <p class="card_desc">Working on a woocommerce project</p>
                             <span class="button"></span>
                         </a>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 section">
                         <a>
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/wordpresstask.png" alt="Wordpress image"></span>
                             <h3 class="card_title">Wordpress reflection</h3>
@@ -54,7 +54,7 @@
                             <span class="button"></span>
                         </a>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 section">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 section">
                         <a href="./javascriptreflectiontask/index.html" target="_blank">  
                             <span class="img_ctn"><img src="./assets/images/portfolio_imgs/javascriptreflectiontask.png" alt="javascript reflection"></span>
                             <h3 class="card_title">Javascript reflection</h3>
