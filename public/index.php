@@ -22,7 +22,7 @@
                     <h2>I'm a web Developer</h2>
                 </div>
                 <div id="scroll_down">
-                    <a href="#content_index">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
+                    <a class="scrolling" href="#content_index">Scroll Down<br><i class="fas fa-arrow-down"></i></a>
                 </div>
             </div>
 
@@ -79,14 +79,14 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <input type="text" id="first_name" name="first_name" value="<?php if (empty($firstname)) {
+                                            <input type="text" id="first_name" class="field_style <?php if ($firstnameError){echo "has-error";} ?>" name="first_name" value="<?php if (empty($firstname)) {
                                                 echo '';
                                             } else {
                                                 echo $firstname;
                                             }?>">
                                         </td>
                                         <td>
-                                            <input type="text" id="last_name" name="last_name" value="<?php if (empty($lastname)) {
+                                            <input type="text" id="last_name" class="field_style <?php if ($lastnameError){echo "has-error";} ?>" name="last_name" value="<?php if (empty($lastname)) {
                                                 echo '';
                                             } else {
                                                 echo $lastname;
@@ -95,7 +95,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <input type="text" id="email_address" name="email_address" placeholder="test" value="<?php if (empty($email)) {
+                                            <input type="text" id="email_address" name="email_address" class="field_style <?php if ($emailvalid){echo "has-error";} ?>" value="<?php if (empty($email)) {
                                                 echo '';
                                             } else {
                                                 echo $email;
@@ -104,7 +104,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <input type="text" id="subject" name="subject" value="<?php if (empty($subject)) {
+                                            <input type="text" id="subject" name="subject" class="field_style <?php if ($subjectvalid){echo "has-error";} ?>" value="<?php if (empty($subject)) {
                                                 echo '';
                                             } else {
                                                 echo $subject;
@@ -113,7 +113,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
-                                            <textarea name="message" id="message" value="<?php if (empty($message)) {
+                                            <textarea name="message" id="message" class="field_style <?php if ($messagevalid){echo "has-error";} ?>" value="<?php if (empty($message)) {
                                                 echo '';
                                             } else {
                                                 echo $message;
@@ -124,6 +124,8 @@
                             </table>
                             <div id="contact_form_submit">
                                 <button type="submit" value="submit">Submit</button>
+                                <p class="errormsg <?php if ($firstnameError || $lastnameError || $emailvalid || $subjectvalid || $messagevalid){echo "has-error";} else { echo '';} ?>">Please enter valid details in the red fields</p>
+                                <p class="successmsg <?php if (!$firstnameError && !$lastnameError && !$emailvalid && !$subjectvalid && !$messagevalid){echo "success";} else {echo '';} ?>">Message Sent! Will get back to you shortly</p>
                             </div>
                         </form>
                     </div>
@@ -133,7 +135,7 @@
 
 
             <div id="scroll_up">
-                <a href="#banner"><i class="fas fa-arrow-up"></i><br>Scroll Up</a>
+                <a class="scrolling" href="#banner"><i class="fas fa-arrow-up"></i><br>Scroll Up</a>
             </div>
         </main>
 </div>

@@ -112,53 +112,85 @@ main {
             margin-top: 50px;
         }
 
+
         #contact_form {
             background-color: $default-button;
 
-            table, 
-            input,
+            
+            }
+
+        .field_style {
+            border: 1px solid $primarybackground-colour;
+        }
+
+
+        .field_style.has-error {
+            border: 2px solid red;
+        }
+
+        .successmsg,
+        .errormsg {
+            display:none;
+            padding:0px 5px;
+            margin:0;
+            color:$active-button-color;
+        }
+
+        .errormsg.has-error {
+            display:block;
+        }
+
+        .successmsg.success {
+            display:block;
+        }
+
+        table, 
+        input,
+        textarea {
+            width: 100%;
+        }
+
+        table {
+            input {
+                height: 3em;
+                padding-left:5px;
+                background-color: $active-button-color;
+            }
+
             textarea {
-                width: 100%;
-                // background-color:$active-button-color;
-                border: 2px solid $default-button;
-            }
-
-            table {
-                input {
-                    height: 3em;
-                    padding-left:5px;
-                    background-color: $active-button-color;
-                }
-    
-                textarea {
-                    resize: none;
-                    height: 10em;
-                    background-color: $active-button-color;
-                }
-            }
-            #contact_form_submit {
-                padding: 2px 4px;
-                background-color: $accent-colour;
-
-                button {
-                    font-size: 1.25em;
-                    background-color: $accent-colour;
-                    border: 2px solid $active-button-color;
-                    color: $active-button-color;
-                    padding: 5px 10px;
-                    margin-top:2px;
-                    margin-bottom:2px;
-                    transition: 0.6s;
-
-                    &:hover {
-                        color: $accent-colour;
-                        border: 2px solid $accent-colour;
-                        background-color: $primarybackground-colour;
-                    }
-                }
-                
+                resize: none;
+                height: 10em;
+                background-color: $active-button-color;
             }
         }
+
+        #contact_form_submit {
+            display:flex;
+            width:100%;
+            padding: 2px 4px;
+            background-color: $accent-colour;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                font-size: 1.25em;
+                background-color: $accent-colour;
+                border: 2px solid $active-button-color;
+                color: $active-button-color;
+                padding: 5px 10px;
+                margin-top:2px;
+                margin-bottom:2px;
+                transition: 0.6s;
+
+                &:hover {
+                    color: $accent-colour;
+                    border: 2px solid $accent-colour;
+                    background-color: $primarybackground-colour;
+                }
+            }
+            
+        }
+        
 
         h3,
         p {

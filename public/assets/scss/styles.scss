@@ -8,6 +8,8 @@
 
 
 * {
+
+    scroll-behavior: smooth;
     box-sizing: border-box;
     
     color: $accent-colour;
@@ -36,6 +38,7 @@
         text-shadow: 0 0 1px rgba(0,0,0,0.9);
     }
 }
+
 
 .hideme {
     overflow:hidden;
