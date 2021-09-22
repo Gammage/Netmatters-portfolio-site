@@ -118,11 +118,11 @@
                                     <tr>
                                         <td colspan="2">
                                             <b>Message*</b>
-                                            <textarea name="message" id="message" class="field_style <?php if ($messagevalid){echo "has-error";} ?>" value="<?php if (empty($message)) {
+                                            <textarea name="message" id="message" class="field_style <?php if ($messagevalid){echo "has-error";} ?>" ><?php if (empty($message)) {
                                                 echo '';
                                             } else {
                                                 echo $message;
-                                            }?>"></textarea>
+                                            }?></textarea>
                                         </td>
                                     </tr>
                                 </tbody>
