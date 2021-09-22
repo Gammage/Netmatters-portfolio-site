@@ -76,7 +76,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $sql = "INSERT INTO `contactme`(`firstname`, `lastname`, `email`, `subject`, `message`) VALUES ('$firstname', '$lastname', '$email', '$subject', '$message')";
         
         if(mysqli_query($conn, $sql)){
-            echo "success";
             // $successMessage = true;
             // $showModal = true;
             
