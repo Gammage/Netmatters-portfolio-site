@@ -77,8 +77,9 @@
                         <form id="contact_form" method="POST" action="index.php#contact">
                             <table>
                                 <tbody>
-                                    <tr>
+                                    <tr class="ctn_pull">
                                         <td>
+                                            <b>First Name</b>
                                             <input type="text" id="first_name" class="field_style <?php if ($firstnameError){echo "has-error";} ?>" name="first_name" value="<?php if (empty($firstname)) {
                                                 echo '';
                                             } else {
@@ -86,6 +87,7 @@
                                             }?>">
                                         </td>
                                         <td>
+                                            <b>Last Name</b>
                                             <input type="text" id="last_name" class="field_style <?php if ($lastnameError){echo "has-error";} ?>" name="last_name" value="<?php if (empty($lastname)) {
                                                 echo '';
                                             } else {
@@ -93,8 +95,9 @@
                                             }?>">
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="ctn_pull">
                                         <td colspan="2">
+                                            <b>Email</b>
                                             <input type="text" id="email_address" name="email_address" class="field_style <?php if ($emailvalid){echo "has-error";} ?>" value="<?php if (empty($email)) {
                                                 echo '';
                                             } else {
@@ -102,8 +105,9 @@
                                             }?>">
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="ctn_pull">
                                         <td colspan="2">
+                                            <b>Subject</b>
                                             <input type="text" id="subject" name="subject" class="field_style <?php if ($subjectvalid){echo "has-error";} ?>" value="<?php if (empty($subject)) {
                                                 echo '';
                                             } else {
@@ -113,6 +117,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="2">
+                                            <b>Message</b>
                                             <textarea name="message" id="message" class="field_style <?php if ($messagevalid){echo "has-error";} ?>" value="<?php if (empty($message)) {
                                                 echo '';
                                             } else {

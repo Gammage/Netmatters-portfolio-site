@@ -434,8 +434,8 @@ main #contact .row {
   margin-top: 50px;
 }
 
-main #contact #contact_form {
-  background-color: #c8a088;
+main #contact .ctn_pull {
+  padding-bottom: 20px;
 }
 
 main #contact .field_style {
