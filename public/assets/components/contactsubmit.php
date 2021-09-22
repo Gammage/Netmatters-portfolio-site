@@ -7,6 +7,7 @@ $lastnameError = false;
 $emailvalid = false;
 $subjectvalid = false;
 $messagevalid = false;
+$success = 0;
 // $successMessage = false;
 // $failureMessage = false;
 // $showModal = false;
@@ -78,6 +79,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if(mysqli_query($conn, $sql)){
             // $successMessage = true;
             // $showModal = true;
+
+            $success = 1;
             
             $firstname = '';
             $lastname = '';

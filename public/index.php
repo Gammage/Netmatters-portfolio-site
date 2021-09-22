@@ -130,7 +130,7 @@
                             <div id="contact_form_submit">
                                 <button type="submit" value="submit">Submit</button>
                                 <p class="errormsg <?php if ($firstnameError || $lastnameError || $emailvalid || $subjectvalid || $messagevalid){echo "has-error";} else { echo '';} ?>">Please enter valid details in the red fields</p>
-                                <p class="successmsg <?php if(mysqli_query($conn, $sql)){echo "success";} else {echo '';} ?>">Message Sent! Will get back to you shortly</p>
+                                <p class="successmsg <?php if($success == 1){echo "success";} else {echo '';} ?>">Message Sent! Will get back to you shortly</p>
                             </div>
                         </form>
                     </div>
