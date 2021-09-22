@@ -13,17 +13,15 @@ $messagevalid = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // $servername = "localhost";
-    // $username = "bengamma_bengammage";
-    // $password = "B_202003195502";
-    // $dbname = "bengammage_netmatters_portfolio_site";
+    $servername = "localhost";
+    $username = "bengamma_bengammage";
+    $password = "B_202003195502";
+    $dbname = "bengammage_netmatters_portfolio_site";
 
-    // $dbhost = "https://ben-gammage.netmatters-scs.co.uk/";
 
 
     // Create connection
-    // $conn = new mysqli($servername, $username, $password, $dbname);
-    $conn = new PDO("mysql:host=https://ben-gammage.netmatters-scs.co.uk/;dbname=bengammage_netmatters_portfolio_site;port=3306", "bengamma_bengammage", "B_202003195502");
+    $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
     if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
