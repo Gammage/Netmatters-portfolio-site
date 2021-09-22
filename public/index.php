@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<title> Bens Website Portfolio</title>
+<link rel="shortcut icon" type="image/png" href="./assets/images/faviconimage.png"/>
 
 <?php include './assets/components/head.php'; ?>
 
