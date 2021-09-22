@@ -13,7 +13,7 @@ $messagevalid = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $servername = "localhost";
+    $servername = "";
     $username = "bengamma_bengammage";
     $password = "B_202003195502";
     $dbname = "bengammage_netmatters_portfolio_site";
