@@ -14,9 +14,9 @@ $messagevalid = false;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "netmatters_portfolio_site";
+    $username = "bengamma_bengammage";
+    $password = "B_202003195502";
+    $dbname = "bengammage_netmatters_portfolio_site";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
