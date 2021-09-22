@@ -13,13 +13,13 @@ $messagevalid = false;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $servername = "";
+    $servername = "localhost";
     $username = "bengamma_bengammage";
     $password = "B_202003195502";
     $dbname = "bengammage_netmatters_portfolio_site";
 
     // Create connection
-    $conn = new mysqli($username, $password, $dbname);
+    $conn = new mysqli($servername, $username, $password, $dbname);
     // Check connection
     if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
