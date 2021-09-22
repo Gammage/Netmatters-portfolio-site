@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
     $username = "bengamma_bengammage";
     $password = "C5V8EYVwgSoA";
-    $dbname = "bengammage_netmatters_portfolio_site";
+    $dbname = "bengamma_netmatters_portfolio_site";
 
 
 
