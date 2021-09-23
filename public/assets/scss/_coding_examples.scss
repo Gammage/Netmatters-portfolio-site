@@ -55,14 +55,108 @@
                     padding: 5px 10px;
                 }
 
-                p {
-                    color:$accent-colour;
-                    background-color: $active-button-color;
-                    padding: 5px;
+                .code_text {
+                    position:relative;
                     width: 80%;
                     margin: auto;
-                    overflow-y: scroll;
+                   
                     height:500px;
+
+                    .code_text_ctn {
+                        overflow-y: scroll;
+                        height:100%;
+                        background-color: $active-button-color;
+
+                        p {
+                            color:$accent-colour;
+                            padding: 5px;
+                            
+                            
+                        }
+                    }
+
+                    .code_info {
+                        display:none;
+                        position:absolute;
+                        bottom:0;
+                        height:100%;
+                        color:$active-button-color;
+                        background-color: $accent-colour;
+                        text-align: left;
+                        // display: flex;
+                        flex-wrap: wrap;
+                        align-content: space-between;
+                        animation: fadeinleft 0.6s;
+
+                        @keyframes fadeinleft {
+                            from {opacity: 0;}
+                            to {opacity: 1;}
+                        }
+    
+                        p {
+                            color:$active-button-color;
+                            background-color: $accent-colour;
+                            padding:20px;
+
+                            a {
+                                text-decoration: underline;
+                                color:$active-button-color;
+                            }
+                            
+                        }
+
+                        .expand_this {
+                            width:100%;
+                            text-align: right;
+                            background-color: $accent-colour;
+
+                            .button_info_cancel {
+                            border:none;
+                            background-color: $accent-colour;
+
+                                i,
+                                h3 {
+                                    
+                                color:$active-button-color;
+                                font-size:1.25rem;
+                                }
+
+                                p {
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .expand_this_too {
+                    position:absolute;
+                    bottom:0;
+                    width: 100%;
+                    background-color: transparent;
+
+                    button {
+                        border:1px solid $default-button;
+                        background-color: $default-button;
+                        margin-right: 15px;
+                        padding:0;
+                        
+                        h3 {
+                            font-size:1.25rem;
+                            background-color:$default-button;
+                            color: $accent-colour;
+                            padding:5px;
+                            margin:0px;
+                        }
+
+                        :hover {
+                            transition: 0.6s;
+                            border: 1px solid $accent-colour;
+                            background-color: $accent-colour;
+                            color: $active-button-color;
+                        }
+                    }
                 }
 
                 span {
@@ -88,7 +182,11 @@
                         }
                     }
                 }
+
+
             }
+
+           
         }
     }
 }

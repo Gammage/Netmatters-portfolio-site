@@ -71,3 +71,14 @@ $( document ).ready(function() {
 });
 
 
+$('.button_info_accept').bind('click', function() {
+    console.log('test');
+    $(this).closest('.code_text_ctn').siblings('.code_info').show();
+});
+
+$('.button_info_cancel').bind('click', function() {
+    console.log('test2');
+    $(this).closest('.code_info').hide();
+});
+
+

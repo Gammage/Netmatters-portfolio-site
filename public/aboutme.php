@@ -49,7 +49,7 @@
                         <div class="code_head"><h3><i class="fab fa-html5"></i></h3></div>
                         <div class="code_content">
                             <h3>Html</h3>
-                            <p>Website creation, Bootstrap, Wordpress.</p>
+                            <p>Website creation</p>
                             <span><h4><i class="fab fa-wordpress"></i><i class="fab fa-bootstrap"></i></h4></span>
                         </div>
                     </div>
@@ -86,11 +86,11 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="code_card">
-                        <div class="code_head"><h3><i class="fab fa-python"></i></h3></div>
+                        <div class="code_head"><h3><i class="fab fa-wordpress"></i></h3></div>
                         <div class="code_content">
-                            <h3>Python</h3>
-                            <p>Coming Soon</p>
-                            <span><h4><i class="fab fa-google"></i><i class="fas fa-database"></i></h4></span>
+                            <h3>Wordpress</h3>
+                            <p>Plugins, theme editing, Child themes, SEO</p>
+                            <span><h4><i class="fas fa-database"></i></h4></span>
                         </div>
                     </div>
                 </div>
