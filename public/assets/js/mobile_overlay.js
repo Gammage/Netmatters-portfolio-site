@@ -75,8 +75,8 @@ $('.button_info_accept').bind('click', function() {
     $(this).closest('.code_text_ctn').siblings('.code_info').show();
 });
 
-$('.button_info_cancel').bind('click', function() {
-    $(this).closest('.code_info').hide();
+$('.code_info').bind('click', function() {
+    $(this).hide();
 });
 
 
